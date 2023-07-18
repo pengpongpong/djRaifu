@@ -1,13 +1,10 @@
-import MainPage from "./Mainpage";
+import LandingPage from "@/components/pages/landing/LandingPage";
 
 
 export default function Home() {
   return (
     <>
-      <MainPage>
-
-        <p>test</p>
-      </MainPage>
+      <LandingPage />
     </>
   )
 }
