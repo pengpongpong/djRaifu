@@ -2,6 +2,8 @@
 import React, { useRef } from 'react'
 import { motion, useMotionValueEvent, useScroll, useTransform } from "framer-motion";
 import Link from "next/link";
+import Image from "next/image";
+import arrowDown from "public/bx-chevrons-down.svg"
 
 type Props = {}
 
@@ -55,6 +57,7 @@ const LandingPage = (props: Props) => {
                         src={"/dj.jpg"}
                     >
                     </motion.img>
+                    <Image className="hero__arrow" src={arrowDown} alt="scroll down"/>
                 </motion.div>
             </section>
 

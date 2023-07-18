@@ -53,7 +53,7 @@ html {
 
   &__banner {
     width: 100vw;
-    margin: 4rem 0 0 0;
+    margin: 1rem 0 0 0;
     padding: 1rem 0;
     text-align: center;
     border-top: 4px solid black;
@@ -61,6 +61,7 @@ html {
     font-family: $headline;
     font-size: 5rem;
     word-spacing: 1rem;
+    line-height: 5.5rem;
     color: black;
 
     &__span {
@@ -68,6 +69,11 @@ html {
       width: 35%;
       text-transform: uppercase;
     }
+  }
+
+  &__arrow {
+    width: 3rem;
+    margin: 1rem auto;
   }
 
   &__container {
